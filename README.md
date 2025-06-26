@@ -52,7 +52,7 @@ Live Demo here -->       https://whatsapp-chat-analyzer-2nk8.onrender.com/
 
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/whatsapp-chat-analyzer.git
+git clone https://github.com/adnanaskh/whatsapp-chat-analyzer.git
 
 # Change directory
 cd whatsapp-chat-analyzer
