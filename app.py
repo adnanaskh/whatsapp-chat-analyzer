@@ -16,6 +16,16 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+st.markdown("""
+<hr>
+<div style='text-align: center; font-size: 15px;'>
+    Developed with ❤️ by <strong>Adnan Ahmad</strong><br>
+    📧 <a href="mailto:adnanask19@gmail.com">adnanask19@gmail.com</a> |
+    🔗 <a href="https://www.linkedin.com/in/aaskmee" target="_blank">LinkedIn</a> |
+    💻 <a href="https://github.com/adnanaskh" target="_blank">GitHub</a>
+</div>
+""", unsafe_allow_html=True)
+
 uploaded_file = st.sidebar.file_uploader("📁 Upload your chat file (txt)")
 
 if uploaded_file is not None:
@@ -145,12 +155,4 @@ if uploaded_file is not None:
             else:
                 st.info("No emojis found in this chat.")
 
-st.markdown("""
-<hr>
-<div style='text-align: center; font-size: 15px;'>
-    Developed with ❤️ by <strong>Adnan Ahmad</strong><br>
-    📧 <a href="mailto:adnanask19@gmail.com">adnanask19@gmail.com</a> |
-    🔗 <a href="https://www.linkedin.com/in/aaskmee" target="_blank">LinkedIn</a> |
-    💻 <a href="https://github.com/adnanaskh" target="_blank">GitHub</a>
-</div>
-""", unsafe_allow_html=True)
+
